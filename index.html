@@ -1,0 +1,1843 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bright Future Coaching Classes | Class 5–10, Dadri</title>
+    <meta
+      name="description"
+      content="Bright Future Coaching Classes, Tulsi Vihar Colony, Dadri — Maths, Science & English coaching for Class 5–10 with on-time syllabus completion and full revisions before exams."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Bright Future Coaching Classes" />
+    <meta
+      property="og:description"
+      content="Class 5–10 Maths, Science & English coaching in Dadri. Small batches, on-time syllabus, free demo class."
+    />
+    <meta property="og:type" content="website" />
+    <!-- Once the site is hosted, add: <meta property="og:image" content="https://yourdomain.com/preview.jpg"> -->
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231B2A4A'/%3E%3Ctext x='50' y='68' font-size='58' text-anchor='middle' fill='%23C99A3E' font-family='Georgia,serif'%3ES%3C/text%3E%3C/svg%3E"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --ink: #1b2a4a;
+        --ink-soft: #2c3e63;
+        --paper: #fbf9f5;
+        --paper-alt: #f1ede4;
+        --slate: #5b6b84;
+        --gold: #c99a3e;
+        --gold-dark: #a87e2c;
+        --line: #e3dfd4;
+        --leaf: #3e7a52;
+
+        --font-display: "Fraunces", serif;
+        --font-body: "Work Sans", sans-serif;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: var(--font-body);
+        color: var(--ink);
+        background: var(--paper);
+        line-height: 1.6;
+      }
+      img,
+      svg {
+        max-width: 100%;
+        display: block;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      ul {
+        list-style: none;
+      }
+      .container {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+
+      /* ---------- Reveal on scroll ---------- */
+      .reveal {
+        opacity: 0;
+        transform: translateY(18px);
+        transition:
+          opacity 0.6s ease,
+          transform 0.6s ease;
+      }
+      .reveal.in {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* ---------- Header ---------- */
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: rgba(251, 249, 245, 0.94);
+        backdrop-filter: blur(6px);
+        border-bottom: 1px solid var(--line);
+      }
+      .nav-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 24px;
+        position: relative;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: var(--font-display);
+        font-weight: 700;
+        font-size: 1.25rem;
+        letter-spacing: -0.01em;
+      }
+      .logo-mark {
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+      }
+      .logo span {
+        color: var(--gold-dark);
+      }
+      nav ul {
+        display: flex;
+        gap: 30px;
+      }
+      nav a {
+        font-size: 0.94rem;
+        font-weight: 500;
+        color: var(--ink-soft);
+        transition: color 0.2s ease;
+      }
+      nav a:hover {
+        color: var(--gold-dark);
+      }
+      .nav-cta {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 11px 20px;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 0.9rem;
+        border: 1.5px solid transparent;
+        cursor: pointer;
+        transition:
+          transform 0.15s ease,
+          background 0.2s ease,
+          border-color 0.2s ease;
+        white-space: nowrap;
+      }
+      .btn:hover {
+        transform: translateY(-1px);
+      }
+      .btn-primary {
+        background: var(--ink);
+        color: var(--paper);
+      }
+      .btn-primary:hover {
+        background: var(--ink-soft);
+      }
+      .btn-outline {
+        border-color: var(--ink);
+        color: var(--ink);
+        background: transparent;
+      }
+      .btn-outline:hover {
+        border-color: var(--gold-dark);
+        color: var(--gold-dark);
+      }
+      .btn-gold {
+        background: var(--gold);
+        color: var(--ink);
+      }
+      .btn-gold:hover {
+        background: var(--gold-dark);
+        color: var(--paper);
+      }
+      .btn-ghost {
+        border: 1.5px solid rgba(255, 255, 255, 0.35);
+        color: var(--paper);
+      }
+      .btn-ghost:hover {
+        border-color: var(--gold);
+        color: var(--gold);
+      }
+
+      .menu-toggle {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 6px;
+      }
+      .menu-toggle span {
+        width: 24px;
+        height: 2px;
+        background: var(--ink);
+        transition:
+          transform 0.25s ease,
+          opacity 0.25s ease;
+      }
+      .menu-toggle.active span:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+      }
+      .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+      }
+      .menu-toggle.active span:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+      }
+
+      /* ---------- Hero ---------- */
+      .hero {
+        padding: 76px 24px 64px;
+        background:
+          radial-gradient(
+            circle at 88% 12%,
+            rgba(201, 154, 62, 0.14),
+            transparent 45%
+          ),
+          var(--paper);
+        border-bottom: 1px solid var(--line);
+      }
+      .hero-inner {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        gap: 52px;
+        align-items: center;
+      }
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--gold-dark);
+        margin-bottom: 16px;
+      }
+      .eyebrow::before {
+        content: "";
+        width: 22px;
+        height: 1.5px;
+        background: var(--gold-dark);
+      }
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--ink);
+        color: var(--paper);
+        padding: 8px 16px;
+        border-radius: 30px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+      }
+      .badge .dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #4ade80;
+      }
+      .hero h1 {
+        font-family: var(--font-display);
+        font-size: clamp(2.1rem, 4.2vw, 3rem);
+        font-weight: 600;
+        line-height: 1.14;
+        letter-spacing: -0.015em;
+        margin-bottom: 18px;
+      }
+      .hero h1 em {
+        font-style: italic;
+        color: var(--gold-dark);
+      }
+      .hero p.lead {
+        font-size: 1.05rem;
+        color: var(--slate);
+        max-width: 46ch;
+        margin-bottom: 28px;
+      }
+      .hero-actions {
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+        margin-bottom: 32px;
+      }
+      .hero-stats {
+        display: flex;
+        gap: 30px;
+        padding-top: 24px;
+        border-top: 1px solid var(--line);
+        flex-wrap: wrap;
+      }
+      .hero-stats div strong {
+        display: block;
+        font-family: var(--font-display);
+        font-size: 1.5rem;
+        font-weight: 600;
+      }
+      .hero-stats div span {
+        font-size: 0.8rem;
+        color: var(--slate);
+      }
+
+      .hero-illustration {
+        position: relative;
+      }
+      .hero-illustration svg {
+        width: 100%;
+        height: auto;
+      }
+
+      /* ---------- Section shared ---------- */
+      section {
+        padding: 76px 24px;
+      }
+      .section-head {
+        text-align: center;
+        max-width: 620px;
+        margin: 0 auto 48px;
+      }
+      .section-head .eyebrow {
+        justify-content: center;
+      }
+      .section-head .eyebrow::before {
+        display: none;
+      }
+      .section-head h2 {
+        font-family: var(--font-display);
+        font-size: clamp(1.65rem, 3vw, 2.2rem);
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        margin-bottom: 12px;
+      }
+      .section-head p {
+        color: var(--slate);
+        font-size: 1rem;
+      }
+
+      /* ---------- Results / Counters ---------- */
+      .results {
+        background: var(--ink);
+        color: var(--paper);
+      }
+      .results-grid {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+        text-align: center;
+      }
+      .result-item .count {
+        font-family: var(--font-display);
+        font-size: 2.4rem;
+        font-weight: 600;
+        color: var(--gold);
+      }
+      .result-item .label {
+        font-size: 0.88rem;
+        color: #c7cedc;
+        margin-top: 6px;
+      }
+
+      /* ---------- About ---------- */
+      .about {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 52px;
+        align-items: center;
+      }
+      .about-visual {
+        background: var(--paper-alt);
+        border-radius: 8px;
+        padding: 32px;
+        border: 1px solid var(--line);
+      }
+      .about-visual ul {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+      .about-visual li {
+        display: flex;
+        gap: 14px;
+        align-items: flex-start;
+        font-size: 0.93rem;
+      }
+      .check {
+        flex-shrink: 0;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: var(--gold);
+        color: var(--ink);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.75rem;
+        font-weight: 700;
+        margin-top: 1px;
+      }
+      .about-copy h2 {
+        font-family: var(--font-display);
+        font-size: clamp(1.55rem, 3vw, 2rem);
+        font-weight: 600;
+        margin-bottom: 16px;
+        letter-spacing: -0.01em;
+      }
+      .about-copy p {
+        color: var(--slate);
+        margin-bottom: 14px;
+      }
+
+      /* ---------- Courses ---------- */
+      .courses-grid {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+      }
+      .course-card {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 28px 24px;
+        transition:
+          border-color 0.2s ease,
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+      .course-card:hover {
+        border-color: var(--gold);
+        transform: translateY(-4px);
+        box-shadow: 0 12px 24px rgba(27, 42, 74, 0.08);
+      }
+      .course-card .num {
+        font-family: var(--font-display);
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--gold-dark);
+        letter-spacing: 0.04em;
+        margin-bottom: 12px;
+        display: block;
+      }
+      .course-card h3 {
+        font-family: var(--font-display);
+        font-size: 1.15rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      .course-card p {
+        color: var(--slate);
+        font-size: 0.9rem;
+        margin-bottom: 14px;
+      }
+      .course-card .meta {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        color: var(--ink-soft);
+        padding-top: 12px;
+        border-top: 1px solid var(--line);
+        font-weight: 500;
+      }
+
+      /* ---------- Faculty ---------- */
+      .faculty {
+        background: var(--paper-alt);
+        border-top: 1px solid var(--line);
+        border-bottom: 1px solid var(--line);
+      }
+      .faculty-grid {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+      }
+      .faculty-card {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 28px 22px;
+        text-align: center;
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+      .faculty-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 14px 26px rgba(27, 42, 74, 0.1);
+      }
+      .faculty-avatar {
+        width: 88px;
+        height: 88px;
+        margin: 0 auto 16px;
+      }
+      .faculty-card h4 {
+        font-family: var(--font-display);
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+      .faculty-card .subject {
+        color: var(--gold-dark);
+        font-size: 0.85rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      .faculty-card .exp {
+        color: var(--slate);
+        font-size: 0.85rem;
+      }
+
+      /* ---------- Gallery ---------- */
+      .gallery-grid {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 18px;
+      }
+      .gallery-tile {
+        background: var(--paper-alt);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 26px 16px;
+        text-align: center;
+        transition:
+          transform 0.2s ease,
+          border-color 0.2s ease;
+      }
+      .gallery-tile:hover {
+        transform: translateY(-3px);
+        border-color: var(--gold);
+      }
+      .gallery-tile svg {
+        width: 46px;
+        height: 46px;
+        margin: 0 auto 12px;
+      }
+      .gallery-tile span {
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--ink-soft);
+      }
+
+      /* ---------- Testimonials ---------- */
+      .testimonials {
+        background: var(--paper);
+      }
+      .testi-grid {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 22px;
+      }
+      .testi-card {
+        background: var(--paper-alt);
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        padding: 26px;
+      }
+      .stars {
+        color: var(--gold);
+        font-size: 0.95rem;
+        margin-bottom: 12px;
+        letter-spacing: 2px;
+      }
+      .testi-card p {
+        font-size: 0.92rem;
+        color: var(--ink-soft);
+        margin-bottom: 16px;
+        font-style: italic;
+      }
+      .testi-author {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 0.85rem;
+        font-weight: 600;
+      }
+      .testi-author .av {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        background: var(--ink);
+        color: var(--gold);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-family: var(--font-display);
+      }
+
+      /* ---------- FAQ ---------- */
+      .faq-list {
+        max-width: 760px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+      .faq-item {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--paper);
+        overflow: hidden;
+      }
+      .faq-item summary {
+        padding: 18px 20px;
+        font-weight: 600;
+        font-size: 0.96rem;
+        cursor: pointer;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .faq-item summary::-webkit-details-marker {
+        display: none;
+      }
+      .faq-item summary::after {
+        content: "+";
+        font-size: 1.3rem;
+        color: var(--gold-dark);
+        font-weight: 400;
+      }
+      .faq-item[open] summary::after {
+        content: "–";
+      }
+      .faq-item p {
+        padding: 0 20px 18px;
+        color: var(--slate);
+        font-size: 0.92rem;
+      }
+
+      /* ---------- Contact ---------- */
+      .contact-wrap {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 36px;
+      }
+      .contact-info {
+        background: var(--ink);
+        color: var(--paper);
+        border-radius: 8px;
+        padding: 36px;
+      }
+      .contact-info h3 {
+        font-family: var(--font-display);
+        font-size: 1.35rem;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+      .contact-info > p {
+        color: #c7cedc;
+        font-size: 0.9rem;
+        margin-bottom: 26px;
+      }
+      .contact-line {
+        display: flex;
+        gap: 14px;
+        align-items: flex-start;
+        margin-bottom: 20px;
+      }
+      .contact-line .ic {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        font-size: 1rem;
+      }
+      .contact-line strong {
+        display: block;
+        font-size: 0.94rem;
+      }
+      .contact-line span,
+      .contact-line a {
+        color: #c7cedc;
+        font-size: 0.87rem;
+      }
+      .contact-line a:hover {
+        color: var(--gold);
+      }
+      .contact-actions {
+        display: flex;
+        gap: 12px;
+        margin-top: 26px;
+        flex-wrap: wrap;
+      }
+      .map-embed {
+        margin-top: 26px;
+        border-radius: 6px;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+      }
+      .map-embed iframe {
+        width: 100%;
+        height: 200px;
+        border: 0;
+        display: block;
+      }
+
+      .contact-form {
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 36px;
+      }
+      .contact-form h3 {
+        font-family: var(--font-display);
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-bottom: 6px;
+      }
+      .contact-form > p.sub {
+        color: var(--slate);
+        font-size: 0.86rem;
+        margin-bottom: 20px;
+      }
+      .form-row {
+        margin-bottom: 14px;
+      }
+      .form-row label {
+        display: block;
+        font-size: 0.83rem;
+        font-weight: 500;
+        margin-bottom: 6px;
+        color: var(--ink-soft);
+      }
+      .form-row input,
+      .form-row select,
+      .form-row textarea {
+        width: 100%;
+        padding: 11px 14px;
+        border: 1.5px solid var(--line);
+        border-radius: 5px;
+        font-family: var(--font-body);
+        font-size: 0.94rem;
+        background: var(--paper);
+        color: var(--ink);
+      }
+      .form-row input:focus,
+      .form-row select:focus,
+      .form-row textarea:focus {
+        outline: none;
+        border-color: var(--gold-dark);
+      }
+      .form-2col {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+      .form-submit {
+        width: 100%;
+        justify-content: center;
+        margin-top: 4px;
+        position: relative;
+        overflow: hidden;
+      }
+      .form-note {
+        font-size: 0.78rem;
+        color: var(--slate);
+        margin-top: 12px;
+        text-align: center;
+      }
+
+      /* ripple */
+      .btn {
+        position: relative;
+        overflow: hidden;
+      }
+      .ripple {
+        position: absolute;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.5);
+        transform: scale(0);
+        animation: ripple-anim 0.5s ease-out;
+        pointer-events: none;
+      }
+      @keyframes ripple-anim {
+        to {
+          transform: scale(2.6);
+          opacity: 0;
+        }
+      }
+
+      /* ---------- Footer ---------- */
+      footer {
+        background: var(--ink);
+        color: #c7cedc;
+        padding: 52px 24px 24px;
+      }
+      .footer-grid {
+        max-width: 1120px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1.3fr 1fr 1fr;
+        gap: 40px;
+        padding-bottom: 32px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      }
+      .footer-col h4 {
+        font-family: var(--font-display);
+        color: var(--paper);
+        font-size: 1.05rem;
+        margin-bottom: 14px;
+      }
+      .footer-col p,
+      .footer-col a {
+        font-size: 0.87rem;
+        color: #c7cedc;
+      }
+      .footer-col ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .footer-col ul a:hover {
+        color: var(--gold);
+      }
+      .footer-social {
+        display: flex;
+        gap: 10px;
+        margin-top: 14px;
+      }
+      .footer-social a {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.2s ease;
+      }
+      .footer-social a:hover {
+        background: var(--gold);
+        color: var(--ink);
+      }
+      .footer-bottom {
+        max-width: 1120px;
+        margin: 0 auto;
+        padding-top: 20px;
+        text-align: center;
+        font-size: 0.82rem;
+        color: #9ca9bf;
+      }
+
+      /* ---------- Floating buttons ---------- */
+      .float-stack {
+        position: fixed;
+        bottom: 24px;
+        right: 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        z-index: 200;
+        align-items: center;
+      }
+      .float-btn {
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+        transition:
+          transform 0.2s ease,
+          opacity 0.2s ease;
+      }
+      .float-btn:hover {
+        transform: scale(1.08);
+      }
+      .wa-btn {
+        background: #25d366;
+      }
+      .call-btn {
+        background: var(--ink);
+      }
+      .top-btn {
+        background: var(--paper);
+        border: 1.5px solid var(--line);
+        color: var(--ink);
+        font-size: 1.2rem;
+        opacity: 0;
+        pointer-events: none;
+      }
+      .top-btn.show {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .float-btn svg {
+        width: 26px;
+        height: 26px;
+      }
+
+      a:focus-visible,
+      button:focus-visible,
+      input:focus-visible,
+      textarea:focus-visible,
+      select:focus-visible,
+      summary:focus-visible {
+        outline: 2px solid var(--gold-dark);
+        outline-offset: 2px;
+      }
+
+      @media (max-width: 940px) {
+        .hero-inner {
+          grid-template-columns: 1fr;
+        }
+        .hero-illustration {
+          order: -1;
+          max-width: 320px;
+          margin: 0 auto;
+        }
+        .about {
+          grid-template-columns: 1fr;
+        }
+        .courses-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .faculty-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .gallery-grid {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        .testi-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .contact-wrap {
+          grid-template-columns: 1fr;
+        }
+        .footer-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .results-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 32px;
+        }
+      }
+
+      @media (max-width: 680px) {
+        nav {
+          display: none;
+        }
+        .nav-cta .btn-outline {
+          display: none;
+        }
+        .menu-toggle {
+          display: flex;
+        }
+        nav.open {
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          right: 0;
+          background: var(--paper);
+          border-bottom: 1px solid var(--line);
+          padding: 12px 24px 20px;
+        }
+        nav.open ul {
+          flex-direction: column;
+          gap: 4px;
+        }
+        nav.open a {
+          display: block;
+          padding: 10px 0;
+        }
+        .courses-grid,
+        .faculty-grid,
+        .testi-grid {
+          grid-template-columns: 1fr;
+        }
+        .gallery-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .footer-grid {
+          grid-template-columns: 1fr;
+          gap: 28px;
+        }
+        .form-2col {
+          grid-template-columns: 1fr;
+        }
+        section {
+          padding: 52px 20px;
+        }
+        .hero {
+          padding: 56px 20px 44px;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        .reveal {
+          opacity: 1;
+          transform: none;
+          transition: none;
+        }
+        * {
+          animation: none !important;
+          transition: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav-wrap">
+        <a href="#home" class="logo">
+          <svg class="logo-mark" viewBox="0 0 48 48" fill="none">
+            <rect width="48" height="48" rx="10" fill="#1B2A4A" />
+            <path d="M12 18l12-6 12 6-12 6-12-6z" fill="#C99A3E" />
+            <path
+              d="M16 21v7c0 2 3.5 4 8 4s8-2 8-4v-7"
+              stroke="#FBF9F5"
+              stroke-width="1.6"
+              fill="none"
+            />
+            <line
+              x1="36"
+              y1="18"
+              x2="36"
+              y2="26"
+              stroke="#C99A3E"
+              stroke-width="1.6"
+            />
+          </svg>
+          Bright <span>Future</span>
+        </a>
+        <nav id="siteNav">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-cta">
+          <a href="tel:+917906980369" class="btn btn-outline">Call Now</a>
+          <a href="#contact" class="btn btn-primary">Book Demo</a>
+          <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="reveal">
+          <div class="badge">
+            <span class="dot"></span> Admissions Open 2026–27
+          </div>
+          <h1>
+            A <em>strong foundation</em><br />for Classes 5–10,<br />with
+            on-time preparation.
+          </h1>
+          <p class="lead">
+            At Bright Future Coaching Classes, the Maths, Science and English
+            syllabus is completed on schedule, with 1–2 full revisions before
+            every exam.
+          </p>
+          <div class="hero-actions">
+            <a href="tel:+917906980369" class="btn btn-primary">📞 Call Now</a>
+            <a href="#contact" class="btn btn-gold">🎓 Book Free Demo</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <strong data-count="5">0</strong><span>Years Experience</span>
+            </div>
+            <div>
+              <strong data-count="300">0</strong><span>Students Taught</span>
+            </div>
+            <div>
+              <strong data-count="2">0</strong
+              ><span>Full Revisions Before Exams</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-illustration reveal">
+          <svg viewBox="0 0 400 400" fill="none">
+            <circle cx="200" cy="200" r="180" fill="#F1EDE4" />
+            <rect
+              x="90"
+              y="230"
+              width="220"
+              height="14"
+              rx="7"
+              fill="#E3DFD4"
+            />
+            <!-- book character body -->
+            <g>
+              <path
+                d="M120 150c0-16 13-29 29-29h102c16 0 29 13 29 29v110c0 8-6 14-14 14H134c-8 0-14-6-14-14V150z"
+                fill="#1B2A4A"
+              />
+              <path d="M200 121v153" stroke="#C99A3E" stroke-width="4" />
+              <path
+                d="M135 140c18-6 40-6 65 0 25-6 47-6 65 0"
+                stroke="#C99A3E"
+                stroke-width="3"
+                fill="none"
+              />
+              <!-- eyes -->
+              <circle cx="175" cy="175" r="7" fill="#FBF9F5" />
+              <circle cx="225" cy="175" r="7" fill="#FBF9F5" />
+              <circle cx="176" cy="176" r="3" fill="#1B2A4A" />
+              <circle cx="226" cy="176" r="3" fill="#1B2A4A" />
+              <!-- smile -->
+              <path
+                d="M182 195q18 14 36 0"
+                stroke="#C99A3E"
+                stroke-width="3"
+                fill="none"
+                stroke-linecap="round"
+              />
+              <!-- graduation cap -->
+              <path d="M200 95l58 22-58 22-58-22 58-22z" fill="#C99A3E" />
+              <path
+                d="M164 122v22c0 8 16 15 36 15s36-7 36-15v-22"
+                stroke="#A87E2C"
+                stroke-width="3"
+                fill="none"
+              />
+              <line
+                x1="258"
+                y1="117"
+                x2="258"
+                y2="150"
+                stroke="#A87E2C"
+                stroke-width="3"
+              />
+              <circle cx="258" cy="153" r="4" fill="#A87E2C" />
+            </g>
+            <!-- floating pencil -->
+            <g transform="rotate(18 320 130)">
+              <rect
+                x="308"
+                y="100"
+                width="14"
+                height="60"
+                rx="4"
+                fill="#C99A3E"
+              />
+              <path d="M308 100l7-14 7 14z" fill="#F1EDE4" />
+            </g>
+            <!-- floating star -->
+            <path
+              transform="translate(70,110)"
+              d="M12 0l3 8 8 1-6 6 2 9-7-5-7 5 2-9-6-6 8-1z"
+              fill="#C99A3E"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="results reveal">
+      <div class="results-grid">
+        <div class="result-item">
+          <div class="count" data-count="95">0</div>
+          <div class="label">Board Results (85%+)</div>
+        </div>
+        <div class="result-item">
+          <div class="count" data-count="300">0</div>
+          <div class="label">Students Taught</div>
+        </div>
+        <div class="result-item">
+          <div class="count" data-count="5">0</div>
+          <div class="label">Years Experience</div>
+        </div>
+        <div class="result-item">
+          <div class="count" data-count="15">0</div>
+          <div class="label">Max Batch Size</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about">
+        <div class="about-visual reveal">
+          <ul>
+            <li>
+              <span class="check">✓</span>
+              <div>
+                <strong>Small batches</strong> — max 15 students, individual
+                attention
+              </div>
+            </li>
+            <li>
+              <span class="check">✓</span>
+              <div>
+                <strong>Syllabus on time</strong> — complete course before
+                exams, no last-minute rush
+              </div>
+            </li>
+            <li>
+              <span class="check">✓</span>
+              <div>
+                <strong>1–2 full revisions</strong> — before every board exam
+              </div>
+            </li>
+            <li>
+              <span class="check">✓</span>
+              <div>
+                <strong>Regular tests</strong> — with progress shared to parents
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="about-copy reveal">
+          <div class="eyebrow">About Us</div>
+          <h2>Focused on strong basics, not just marks</h2>
+          <p>
+            Bright Future Coaching Classes, located in Tulsi Vihar Colony, 24
+            Futa Road, Dadri (near Shiv Mandir), teaches Maths, Science and
+            English to students from Class 5 to Class 10.
+          </p>
+          <p>
+            Our focus is on concept clarity — completing the syllabus on time
+            and conducting 1–2 full revisions before exams, so students can
+            attempt their papers with confidence.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="courses" style="background: var(--paper)">
+      <div class="section-head reveal">
+        <div class="eyebrow">Our Batches</div>
+        <h2>Courses we offer</h2>
+        <p>Choose a batch based on your class.</p>
+      </div>
+      <div class="courses-grid">
+        <div class="course-card reveal">
+          <span class="num">01</span>
+          <h3>Class 5–7 Foundation</h3>
+          <p>
+            Maths, Science & English basics — with a focus on concept building
+            and regular practice.
+          </p>
+          <div class="meta">
+            <span>5 days/week</span><span>60 min/day</span>
+          </div>
+        </div>
+        <div class="course-card reveal">
+          <span class="num">02</span>
+          <h3>Class 8–9 Preparation</h3>
+          <p>
+            Practice based on the board exam pattern, with weekly tests and
+            doubt-clearing sessions.
+          </p>
+          <div class="meta">
+            <span>6 days/week</span><span>75 min/day</span>
+          </div>
+        </div>
+        <div class="course-card reveal">
+          <span class="num">03</span>
+          <h3>Class 10 Board Batch</h3>
+          <p>
+            Complete syllabus on time, with 2 full revisions and regular mock
+            tests.
+          </p>
+          <div class="meta">
+            <span>6 days/week</span><span>90 min/day</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faculty" id="faculty">
+      <div class="section-head reveal">
+        <div class="eyebrow">Our Teachers</div>
+        <h2>Meet the faculty</h2>
+        <p>Experienced teachers who focus on building strong basics.</p>
+      </div>
+      <div class="faculty-grid">
+        <div class="faculty-card reveal">
+          <svg class="faculty-avatar" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50" fill="#1B2A4A" />
+            <circle cx="50" cy="42" r="17" fill="#F1EDE4" />
+            <path d="M20 88c0-19 13-30 30-30s30 11 30 30" fill="#C99A3E" />
+          </svg>
+          <h4>Rakesh Sir</h4>
+          <div class="subject">Mathematics</div>
+          <div class="exp">5 years experience</div>
+        </div>
+        <div class="faculty-card reveal">
+          <svg class="faculty-avatar" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50" fill="#A87E2C" />
+            <circle cx="50" cy="42" r="17" fill="#F1EDE4" />
+            <path d="M20 88c0-19 13-30 30-30s30 11 30 30" fill="#1B2A4A" />
+          </svg>
+          <h4>Sunita Ma'am</h4>
+          <div class="subject">Science</div>
+          <div class="exp">5 years experience</div>
+        </div>
+        <div class="faculty-card reveal">
+          <svg class="faculty-avatar" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="50" fill="#3E7A52" />
+            <circle cx="50" cy="42" r="17" fill="#F1EDE4" />
+            <path d="M20 88c0-19 13-30 30-30s30 11 30 30" fill="#C99A3E" />
+          </svg>
+          <h4>Anjali Ma'am</h4>
+          <div class="subject">English</div>
+          <div class="exp">5 years experience</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="section-head reveal">
+        <div class="eyebrow">A Glimpse Inside</div>
+        <h2>Gallery</h2>
+        <p>
+          A glimpse of our classrooms, students, and the coaching environment.
+        </p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-tile reveal">
+          <svg viewBox="0 0 48 48">
+            <rect x="6" y="10" width="36" height="24" rx="2" fill="#1B2A4A" />
+            <rect x="10" y="14" width="28" height="16" fill="#F1EDE4" />
+            <rect x="18" y="38" width="12" height="4" fill="#C99A3E" /></svg
+          ><span>Classroom</span>
+        </div>
+        <div class="gallery-tile reveal">
+          <svg viewBox="0 0 48 48">
+            <circle cx="16" cy="16" r="7" fill="#C99A3E" />
+            <circle cx="32" cy="16" r="7" fill="#1B2A4A" />
+            <path d="M6 40c0-8 6-13 10-13s10 5 10 13" fill="#C99A3E" />
+            <path d="M22 40c0-8 6-13 10-13s10 5 10 13" fill="#1B2A4A" /></svg
+          ><span>Students</span>
+        </div>
+        <div class="gallery-tile reveal">
+          <svg viewBox="0 0 48 48">
+            <rect x="4" y="8" width="40" height="26" rx="2" fill="#1B2A4A" />
+            <line
+              x1="10"
+              y1="16"
+              x2="30"
+              y2="16"
+              stroke="#C99A3E"
+              stroke-width="2"
+            />
+            <line
+              x1="10"
+              y1="22"
+              x2="34"
+              y2="22"
+              stroke="#C99A3E"
+              stroke-width="2"
+            />
+            <line
+              x1="10"
+              y1="28"
+              x2="24"
+              y2="28"
+              stroke="#C99A3E"
+              stroke-width="2"
+            /></svg
+          ><span>Teaching</span>
+        </div>
+        <div class="gallery-tile reveal">
+          <svg viewBox="0 0 48 48">
+            <path
+              d="M24 4l6 12 13 2-9 9 2 13-12-6-12 6 2-13-9-9 13-2z"
+              fill="#C99A3E"
+            /></svg
+          ><span>Events</span>
+        </div>
+        <div class="gallery-tile reveal">
+          <svg viewBox="0 0 48 48">
+            <path
+              d="M24 6a10 10 0 0 1 10 10c0 8-10 20-10 20s-10-12-10-20A10 10 0 0 1 24 6z"
+              fill="#1B2A4A"
+            />
+            <circle cx="24" cy="16" r="4" fill="#C99A3E" /></svg
+          ><span>Award Ceremony</span>
+        </div>
+        <div class="gallery-tile reveal">
+          <svg viewBox="0 0 48 48">
+            <rect x="8" y="8" width="10" height="32" fill="#1B2A4A" />
+            <rect x="20" y="8" width="10" height="32" fill="#C99A3E" />
+            <rect x="32" y="8" width="8" height="32" fill="#1B2A4A" /></svg
+          ><span>Library</span>
+        </div>
+        <div class="gallery-tile reveal">
+          <svg viewBox="0 0 48 48">
+            <rect x="6" y="18" width="36" height="14" rx="2" fill="#1B2A4A" />
+            <rect x="6" y="14" width="10" height="6" fill="#C99A3E" /></svg
+          ><span>Test Series</span>
+        </div>
+        <div class="gallery-tile reveal">
+          <svg viewBox="0 0 48 48">
+            <path
+              d="M24 4l16 8v12c0 10-7 17-16 20-9-3-16-10-16-20V12z"
+              fill="#3E7A52"
+            />
+            <path
+              d="M17 24l5 5 9-10"
+              stroke="#F1EDE4"
+              stroke-width="2.5"
+              fill="none"
+            /></svg
+          ><span>Result Day</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="section-head reveal">
+        <div class="eyebrow">Parents & Students Say</div>
+        <h2>Testimonials</h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>
+            "The best coaching for Maths. My son's marks went from 62% to 91%."
+          </p>
+          <div class="testi-author">
+            <span class="av">R</span> Ritu Sharma, Parent
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>
+            "The teachers explain everything very patiently. The Sunday doubt
+            session is really helpful."
+          </p>
+          <div class="testi-author">
+            <span class="av">A</span> Aman Verma, Class 10
+          </div>
+        </div>
+        <div class="testi-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>
+            "The syllabus is finished on time, leaving plenty of time for
+            revision before exams."
+          </p>
+          <div class="testi-author">
+            <span class="av">P</span> Priya Singh, Parent
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" style="background: var(--paper)">
+      <div class="section-head reveal">
+        <div class="eyebrow">Common Questions</div>
+        <h2>FAQ</h2>
+      </div>
+      <div class="faq-list reveal">
+        <details class="faq-item">
+          <summary>What are the fees?</summary>
+          <p>
+            Fees vary by batch and class. Please call or WhatsApp us for exact
+            details, and we'll share the complete fee structure with you.
+          </p>
+        </details>
+        <details class="faq-item">
+          <summary>Is the demo class free?</summary>
+          <p>
+            Yes, the first demo class is completely free. You can see our
+            teaching style and classroom environment before enrolling.
+          </p>
+        </details>
+        <details class="faq-item">
+          <summary>What are the batch timings?</summary>
+          <p>
+            Batches run Monday to Saturday, between 4:00 PM and 8:00 PM. Sunday
+            is reserved for a doubt-clearing session.
+          </p>
+        </details>
+        <details class="faq-item">
+          <summary>Are study notes provided?</summary>
+          <p>
+            Yes, study material and practice sheets for every subject are
+            included — at no extra charge.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-head reveal">
+        <div class="eyebrow">Get In Touch</div>
+        <h2>Book a free demo class</h2>
+        <p>
+          Call us, WhatsApp us, or fill out the form — we'll get back to you
+          within a day.
+        </p>
+      </div>
+      <div class="contact-wrap">
+        <div class="contact-info reveal">
+          <h3>Contact Details</h3>
+          <p>
+            Reach out directly for fees, batch timings, or any other questions.
+          </p>
+
+          <div class="contact-line">
+            <div class="ic">📞</div>
+            <div>
+              <strong>Call Us</strong><br /><a href="tel:+917906980369"
+                >+91 79069 80369</a
+              >
+            </div>
+          </div>
+          <div class="contact-line">
+            <div class="ic">💬</div>
+            <div>
+              <strong>WhatsApp</strong><br /><a
+                href="https://wa.me/917906980369"
+                target="_blank"
+                rel="noopener"
+                >+91 79069 80369</a
+              >
+            </div>
+          </div>
+          <div class="contact-line">
+            <div class="ic">✉️</div>
+            <div>
+              <strong>Email</strong><br /><a
+                href="mailto:tiwarideeksha522@gmail.com"
+                >tiwarideeksha522@gmail.com</a
+              >
+            </div>
+          </div>
+          <div class="contact-line">
+            <div class="ic">📍</div>
+            <div>
+              <strong>Address</strong><br /><span
+                >Tulsi Vihar Colony, 24 Futa Road,<br />Near Shiv Mandir,
+                Dadri</span
+              >
+            </div>
+          </div>
+          <div class="contact-line">
+            <div class="ic">🕒</div>
+            <div>
+              <strong>Timing</strong><br /><span
+                >Mon–Sat: 4:00 PM – 8:00 PM<br />Sun: Doubt Clinic</span
+              >
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a href="tel:+917906980369" class="btn btn-gold">Call Now</a>
+            <a
+              href="https://wa.me/917906980369?text=Hi%2C%20I%20want%20to%20know%20more%20about%20admissions"
+              class="btn btn-ghost"
+              target="_blank"
+              rel="noopener"
+              >WhatsApp</a
+            >
+          </div>
+
+          <div class="map-embed">
+            <iframe
+              src="https://www.google.com/maps?q=Dadri%2C%20Uttar%20Pradesh%2C%20Tulsi%20Vihar%20Colony&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Location Map"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="contact-form reveal">
+          <h3>Admission Enquiry Form</h3>
+          <p class="sub">Fill in your details, and we'll call you back.</p>
+          <form
+            action="mailto:tiwarideeksha522@gmail.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <div class="form-2col">
+              <div class="form-row">
+                <label for="sname">Student Name</label>
+                <input
+                  type="text"
+                  id="sname"
+                  name="Student Name"
+                  placeholder="Full name"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <label for="sclass">Class</label>
+                <select id="sclass" name="Class" required>
+                  <option value="">Select class</option>
+                  <option>Class 5</option>
+                  <option>Class 6</option>
+                  <option>Class 7</option>
+                  <option>Class 8</option>
+                  <option>Class 9</option>
+                  <option>Class 10</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <label for="pname">Parent Name</label>
+              <input
+                type="text"
+                id="pname"
+                name="Parent Name"
+                placeholder="Parent / guardian name"
+                required
+              />
+            </div>
+            <div class="form-2col">
+              <div class="form-row">
+                <label for="mobile">Mobile Number</label>
+                <input
+                  type="tel"
+                  id="mobile"
+                  name="Mobile"
+                  placeholder="10-digit mobile number"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <label for="addr">Address</label>
+                <input
+                  type="text"
+                  id="addr"
+                  name="Address"
+                  placeholder="Your area / colony"
+                />
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">
+              Submit Enquiry
+            </button>
+          </form>
+          <p class="form-note">
+            Prefer talking directly? Call or WhatsApp anytime.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Saraswati Vidya Coaching</h4>
+          <p>Tulsi Vihar Colony, 24 Futa Road,<br />Near Shiv Mandir, Dadri</p>
+          <p style="margin-top: 10px">
+            📞 +91 79069 80369<br />✉️ tiwarideeksha522@gmail.com
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">ig</a>
+            <a
+              href="https://wa.me/917906980369"
+              target="_blank"
+              rel="noopener"
+              aria-label="WhatsApp"
+              >wa</a
+            >
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Batches</h4>
+          <ul>
+            <li><a href="#courses">Class 5–7 Foundation</a></li>
+            <li><a href="#courses">Class 8–9 Preparation</a></li>
+            <li><a href="#courses">Class 10 Board Batch</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 Saraswati Vidya Coaching Classes. All rights reserved.
+      </div>
+    </footer>
+
+    <div class="float-stack">
+      <a
+        href="https://wa.me/917906980369?text=Hi%2C%20I%20want%20to%20know%20more%20about%20admissions"
+        class="float-btn wa-btn"
+        target="_blank"
+        rel="noopener"
+        aria-label="Chat on WhatsApp"
+      >
+        <svg viewBox="0 0 32 32" fill="white">
+          <path
+            d="M16.001 3C9.373 3 4 8.373 4 15c0 2.42.71 4.673 1.929 6.567L4 29l7.633-1.897A11.94 11.94 0 0 0 16 27c6.627 0 12-5.373 12-12S22.628 3 16.001 3zm0 21.75c-1.918 0-3.7-.55-5.207-1.5l-.373-.221-4.53 1.126 1.156-4.418-.243-.386A9.71 9.71 0 0 1 5.25 15c0-5.937 4.813-10.75 10.75-10.75S26.75 9.063 26.75 15 21.938 24.75 16 24.75zm5.44-8.08c-.297-.149-1.758-.868-2.03-.966-.272-.099-.47-.148-.668.148-.198.297-.767.966-.94 1.164-.173.198-.347.223-.644.075-.297-.149-1.254-.462-2.388-1.472-.883-.787-1.48-1.76-1.653-2.057-.173-.297-.019-.458.13-.606.134-.133.297-.347.446-.52.148-.174.198-.298.297-.496.099-.198.05-.372-.025-.52-.074-.149-.668-1.61-.916-2.204-.242-.579-.487-.5-.668-.51l-.569-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.478 0 1.462 1.065 2.875 1.213 3.073.148.198 2.096 3.2 5.078 4.487.71.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.288.173-1.413-.074-.124-.272-.198-.569-.347z"
+          />
+        </svg>
+      </a>
+      <a
+        href="tel:+917906980369"
+        class="float-btn call-btn"
+        aria-label="Call Now"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="#FBF9F5" stroke-width="2">
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+          />
+        </svg>
+      </a>
+      <button class="float-btn top-btn" id="topBtn" aria-label="Back to top">
+        ↑
+      </button>
+    </div>
+
+    <script>
+      // Mobile menu
+      const menuToggle = document.getElementById("menuToggle");
+      const siteNav = document.getElementById("siteNav");
+      menuToggle.addEventListener("click", () => {
+        siteNav.classList.toggle("open");
+        menuToggle.classList.toggle("active");
+      });
+      document.querySelectorAll("#siteNav a").forEach((link) => {
+        link.addEventListener("click", () => {
+          siteNav.classList.remove("open");
+          menuToggle.classList.remove("active");
+        });
+      });
+
+      // Reveal on scroll
+      const revealEls = document.querySelectorAll(".reveal");
+      const revealObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in");
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.15 },
+      );
+      revealEls.forEach((el) => revealObserver.observe(el));
+
+      // Counter animation
+      const counters = document.querySelectorAll("[data-count]");
+      const counterObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              const el = entry.target;
+              const target = parseInt(el.getAttribute("data-count"), 10);
+              let current = 0;
+              const duration = 1200;
+              const stepTime = 16;
+              const steps = duration / stepTime;
+              const increment = target / steps;
+              const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                  el.textContent = target;
+                  clearInterval(timer);
+                } else {
+                  el.textContent = Math.floor(current);
+                }
+              }, stepTime);
+              counterObserver.unobserve(el);
+            }
+          });
+        },
+        { threshold: 0.5 },
+      );
+      counters.forEach((el) => counterObserver.observe(el));
+
+      // Ripple effect on buttons
+      document.querySelectorAll(".btn").forEach((btn) => {
+        btn.addEventListener("click", function (e) {
+          const rect = this.getBoundingClientRect();
+          const ripple = document.createElement("span");
+          ripple.className = "ripple";
+          ripple.style.left = e.clientX - rect.left + "px";
+          ripple.style.top = e.clientY - rect.top + "px";
+          ripple.style.width = ripple.style.height =
+            Math.max(rect.width, rect.height) + "px";
+          this.appendChild(ripple);
+          setTimeout(() => ripple.remove(), 500);
+        });
+      });
+
+      // Back to top
+      const topBtn = document.getElementById("topBtn");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 500) topBtn.classList.add("show");
+        else topBtn.classList.remove("show");
+      });
+      topBtn.addEventListener("click", () =>
+        window.scrollTo({ top: 0, behavior: "smooth" }),
+      );
+    </script>
+  </body>
+</html>
